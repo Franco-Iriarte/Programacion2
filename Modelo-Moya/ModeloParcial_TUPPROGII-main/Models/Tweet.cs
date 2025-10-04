@@ -7,9 +7,9 @@ namespace TwitterCloneApi.Models;
 
 public partial class Tweet
 {
-    public int Idd { get; set; }
+    public int Id { get; set; }
 
-    public int IddUser { get; set; }
+    public int IdUser { get; set; }
 
     public string Content { get; set; }
 
